@@ -1,11 +1,17 @@
-import React from "react";
+import { useState } from 'react'
+import './App.css'
+import Header from './components/Header/Header'
 
-const App = () => {
+function App() {
+
   return (
-    <div>
-      <h1>Hello world!</h1>
-    </div>
-  );
-};
+    <>
+      <Header></Header>
+      <div className='md:flex max-w-7xl mx-auto'>
+      </div>
 
-export default App;
+    </>
+  )
+}
+
+export default App
