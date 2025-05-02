@@ -23,14 +23,14 @@ function App() {
   }
 
   return (
-    <>
+    <div className="mx-6">
       <Header></Header>
       <div className='md:flex max-w-7xl mx-auto'>
         <Blogs handleAddToBookmark={handleAddToBookmark} handleMarkAsRead={handleMarkAsRead}></Blogs>
         <Bookmarks bookmarks={bookmarks} readingTime={readingTime}></Bookmarks>
       </div>
 
-    </>
+    </div>
   )
 }
 
